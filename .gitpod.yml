@@ -1,5 +1,8 @@
-image: node:14
+image:
+  file: .gitpod.Dockerfile
 
 tasks:
-  - name: Cypress
-    command: npx cypress run
+  - command: "npm ci"
+  - command: "npx cypress install"
+  - command: "npx cypress run"
+    
