@@ -2,7 +2,7 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - command: "npm ci"
-  - command: "npx cypress install"
-  - command: "npx cypress run"
+  - command: "npm i"
+  - command: "npx cypress open"
+  
     
