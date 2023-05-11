@@ -6,5 +6,6 @@ tasks:
       npm install
       gp sync-done install
     command: npm run dev
+  - init: npm install -g lambdatest-cypress-cli
   - init: gp sync-await install
-    command: npx cypress run --spec 'cypress/e2e/**.cy.js'
+    command: lambdatest-cypress run
