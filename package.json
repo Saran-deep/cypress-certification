@@ -17,7 +17,10 @@
     "url": "https://github.com/Saran-deep/cypress-certification/issues"
   },
   "homepage": "https://github.com/Saran-deep/cypress-certification#readme",
-  "dependencies": {
-    "cypress": "^12.3.0"
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.12.0",
+    "cypress-audit": "^1.1.0",
+    "cypress-failed-log": "^2.10.0"
   }
 }

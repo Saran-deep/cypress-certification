@@ -3,6 +3,6 @@ image:
 
 tasks:
   - command: "npm i"
-  - command: "npx cypress open"
+  - command: "npx cypress run --spec "cypress/e2e/**.cy.js"
   
     
